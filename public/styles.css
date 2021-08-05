@@ -1,178 +1,208 @@
 body{
-    background-size: 90em;
-    margin: 0 auto;
-    padding: 0;  
+  background-size: 90em;
+  margin: 0 auto;
+  padding: 0;  
 }
 
 .head1{
-    height: 100vh;
-    background: center/cover no-repeat url("https://img.freepik.com/foto-gratis/vaso-whisky-o-conac-u-otro-tipo-alcohol-salpicaduras-cubo-hielo-sobre-fondo-madera_288539-20.jpg?size=626&ext=jpg");
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
+  height: 100vh;
+  background: center/cover no-repeat url("https://img.freepik.com/foto-gratis/vaso-whisky-o-conac-u-otro-tipo-alcohol-salpicaduras-cubo-hielo-sobre-fondo-madera_288539-20.jpg?size=626&ext=jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
 }
 .divhead1{
-    text-align: center;
+  text-align: center;
 }
 h2{
-    font-family: 'Akaya Telivigala', cursive;
+  font-family: 'Akaya Telivigala', cursive;
 }
 #head1h2{
-    font-family: 'Akaya Telivigala', cursive;
-    text-align: center;
-    color: rgb(249, 252, 103) ;
-    padding-top: 2em;
-    font-size: 50px;
-    
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+  color: rgb(249, 252, 103) ;
+  padding-top: 2em;
+  font-size: 50px;
+  
 }
 p{
-    font-family: 'RocknRoll One', sans-serif;
-    font-size: 13px;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 13px;
 }
 #head1h1{
-    font-family: 'RocknRoll One', sans-serif;
-    text-align: center;
-    font-size: 60px;
-    color: aliceblue;
+  font-family: 'RocknRoll One', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
 }
 
 button{
-    font-family: 'Akaya Telivigala', cursive;
-    background: none;
-    color: rgb(252, 253, 155);
-    border: 2px solid;
-    padding: 1em 1.5em;
-    font-size: 1.5em;
-    
+  font-family: 'Akaya Telivigala', cursive;
+  background: none;
+  color: rgb(252, 253, 155);
+  border: 2px solid;
+  padding: 1em 1.5em;
+  font-size: 1.5em;
+  
 }
 
 button:hover{
-    border-color: orangered  ;
-    color: orangered   ;
-    cursor: pointer;
-    background: rgb(252, 253, 155);
-    box-shadow: 0 0.5em 0.5em -0.4em;
+  border-color: orangered  ;
+  color: orangered   ;
+  cursor: pointer;
+  background: rgb(252, 253, 155);
+  box-shadow: 0 0.5em 0.5em -0.4em;
 }
 /*--------------------*/
 .s1{
-    background: #adb5bd;
+  background: #adb5bd;
 }
 .div1s1{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5em 0;
-  }
-  
-  .imagen{
-      
-      height: 18.5em;
-      transition: width 1s, height 1s, transform 1s;
-   
-  }
-  .imagen:hover{
-    
-    transform: scale(1.2);
-    cursor: pointer;
-  
-  }
-  .div1s1 .div2s1{
-    width: 50%;
-  }
-  .div2s1 p {
-    padding:0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-  }
-  .s1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .div2s1{
-    width: 30em;
-  }
-  /*------------------------------------*/
-  .s2{
-    background: #6c757d;  /* fallback for old browsers */
-    
-  }
-  .divImagenes{
-    display: flex;
-    align-items: center;
-    padding: 5em 0;
-    justify-content: center;
-  }
-  .producto{
-    width: 20%;
-    text-align: center;
-  }
-  
-  .producto img{
-    width: 50%;
-    
-  }
-  .producto h3{
-    margin: 10px 0;
-  }
-  .producto p{
-    font-weight: 300;
-    text-align: center;
-  }
-  
-  .texto2{
-    margin: 0em 5em;
-    width: 20em;
-  }
-  .texto2 p {
-    
-    text-align: justify;
-    align-items: center;
-    padding: 2.5em 0;
-    color: white;  
-  }
-  /*----------------------------------------------*/
-  .sfinal{
-      background: #adb5bd;
-  }
-  h3{
-      font-family: 'Akaya Telivigala', cursive;
-  }
-  .divFinal{
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-  }
-  footer{
-    background: #6c757d;
-    margin: auto;
-    overflow: hidden;
-  }
-  .final{
-    font-family: 'RocknRoll One', sans-serif;
-    font-size: 13px;  
-    text-align: center;
-    margin: 20px 0 0 0;
-    color: wheat;
-  }
-@media (max-width:800px){
-.div1s1{
-    flex-direction: column;
-    height: 60em;
-    background-size: cover;
-    background-position: center center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5em 0;
 }
-#head1h2{
-    font-size: 25px;
+
+.imagen{
+    
+    height: 18.5em;
+    transition: width 1s, height 1s, transform 1s;
+ 
 }
-#head1h1{
-    font-size: 30px;
+.imagen:hover{
+  
+  transform: scale(1.2);
+  cursor: pointer;
+
+}
+.div1s1 .div2s1{
+  width: 50%;
+}
+.div2s1 p {
+  padding:0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+.s1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div2s1{
+  width: 30em;
+}
+/*------------------------------------*/
+.s2{
+  background: #6c757d;  /* fallback for old browsers */
+  
 }
 .divImagenes{
-
-    flex-direction: column;
-    height: 60em;
-    background-size: cover;
-    background-position: center center;
+  display: flex;
+  align-items: center;
+  padding: 5em 0;
+  justify-content: center;
 }
+.producto{
+  width: 20%;
+  text-align: center;
+}
+
+.producto img{
+  width: 50%;
+  
+}
+.producto h3{
+  margin: 10px 0;
+}
+.producto p{
+  font-weight: 300;
+  text-align: center;
+}
+
+.texto2{
+  margin: 0em 5em;
+  width: 20em;
+}
+.texto2 p {
+  
+  text-align: justify;
+  align-items: center;
+  padding: 2.5em 0;
+  color: white;  
+}
+/*----------------------------------------------*/
+.sfinal{
+    background: #adb5bd;
+}
+h3{
+    font-family: 'Akaya Telivigala', cursive;
+}
+.divFinal{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+footer{
+  background: #6c757d;
+  margin: auto;
+  overflow: hidden;
+}
+.final{
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 13px;  
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: wheat;
+}
+@media (max-width:800px){
+.div1s1{
+  display: block;
+  flex-direction: column;
+  height: 60em;
+  background-size: cover;
+  background-position: center center;
+}
+#head1h2{
+  font-size: 25px;
+}
+#head1h1{
+  font-size: 30px;
+}
+.imagen{
+width: 60%;
+height: 20%;
+padding-left: 20%;
+}
+.divImagenes{
+  flex-direction:column;
+  padding-left:1px;
+  padding-right: 35px;
+  height: 60em;
+  background-size: cover;
+  background-position: center center;
+}
+.texto2{
+display: block;
+width: 60%;
+height: 60%;
+}
+button{
+font-family: 'Akaya Telivigala', cursive;
+background: none;
+color: rgb(252, 253, 155);
+border: 2px solid;
+padding: 0.5em 1em;
+font-size: 1em;
+
+}
+
+button:hover{
+border-color: orangered  ;
+color: orangered   ;
+cursor: pointer;
+background: rgb(252, 253, 155);
+box-shadow: 0 0.5em 0.5em -0.4em;
+}
+
 }

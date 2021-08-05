@@ -13,7 +13,7 @@ app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
   res.render('homeLic',{
-    licor1:'Wisky Jhonny Rojo',
+    licor1:'Whisky Jhonny Rojo',
     licor2:'Ron Abuelo',
     licor3:'Tequila Azteca',
     pre1:20,
